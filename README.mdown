@@ -3,26 +3,23 @@ iTunes 11 Style Color Art Detection for iOS.
 
 Port of ColorArt code from OS X to iOS.
 
-![Screenshot](https://raw.github.com/fleitz/ColorArt/master/screenshot.png)
+![Screenshot](https://raw.github.com/fleitz/ColorArt/master/new.png)
 
 Usage
 ===
 
-```   objective-c
-    #include <ColorArt/UIImage+ColorArt.h>
+```objective-c
+#include <ColorArt/UIImage+ColorArt.h>
 
-    image = [image scaledToSize:self.fadedImageView.frame.size];
-    SLColorArt *colorArt = [image colorArt];
-    self.fadedImageView.backgroundColor = colorArt.backgroundColor;
-    self.fadedImageView.image = image;
-    self.view.backgroundColor = colorArt.backgroundColor;
-    self.headline.textColor = colorArt.primaryColor;
-    self.subHeadline.textColor = colorArt.secondaryColor;
-    self.text.textColor = colorArt.detailColor;
+image = [image scaledToSize:self.fadedImageView.frame.size];
+SLColorArt *colorArt = [image colorArt];
+self.fadedImageView.backgroundColor = colorArt.backgroundColor;
+self.fadedImageView.image = image;
+self.view.backgroundColor = colorArt.backgroundColor;
+self.headline.textColor = colorArt.primaryColor;
+self.subHeadline.textColor = colorArt.secondaryColor;
+self.text.textColor = colorArt.detailColor;
 ```
-
-
-
 
 About
 ===
