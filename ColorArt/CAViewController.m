@@ -42,8 +42,7 @@
     [super viewDidLoad];
     self.imagePicker = [[UIImagePickerController alloc] init];
     self.imagePicker.delegate = self;
-    UIImage *image = [UIImage imageNamed:@"Beatles-Abbey-Road-album.jpg"];
-    //    UIImage *image = [UIImage imageNamed:@"DSC_0062.jpg"];
+    UIImage *image = [UIImage imageNamed:@"coffee"];
     
     [self colorizeForImage:image];
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(pickImage)]];
@@ -64,6 +63,7 @@
 {
     UIImage* image = [info objectForKey:UIImagePickerControllerOriginalImage];
     [self colorizeForImage:image];
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 

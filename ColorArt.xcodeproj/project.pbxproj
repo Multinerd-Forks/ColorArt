@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0D5047170AB8F600C2A297 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D5046170AB8F600C2A297 /* coffee.png */; };
 		B620268416787076004F3873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B620268316787076004F3873 /* UIKit.framework */; };
 		B620268616787076004F3873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B620268516787076004F3873 /* Foundation.framework */; };
 		B620268816787076004F3873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B620268716787076004F3873 /* CoreGraphics.framework */; };
 		B62026CD16787DE7004F3873 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62026CC16787DE7004F3873 /* QuartzCore.framework */; };
-		B62026E816788B34004F3873 /* Beatles-Abbey-Road-album.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B62026D316788B34004F3873 /* Beatles-Abbey-Road-album.jpg */; };
 		B62026E916788B34004F3873 /* CAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62026D516788B34004F3873 /* CAAppDelegate.m */; };
 		B62026EA16788B34004F3873 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62026D716788B34004F3873 /* CAViewController.m */; };
 		B62026EB16788B34004F3873 /* CAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62026D816788B34004F3873 /* CAViewController.xib */; };
@@ -30,12 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0D5046170AB8F600C2A297 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
 		B620267F16787076004F3873 /* ColorArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B620268316787076004F3873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B620268516787076004F3873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B620268716787076004F3873 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B62026CC16787DE7004F3873 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B62026D316788B34004F3873 /* Beatles-Abbey-Road-album.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Beatles-Abbey-Road-album.jpg"; sourceTree = "<group>"; };
 		B62026D416788B34004F3873 /* CAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAppDelegate.h; sourceTree = "<group>"; };
 		B62026D516788B34004F3873 /* CAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAppDelegate.m; sourceTree = "<group>"; };
 		B62026D616788B34004F3873 /* CAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAViewController.h; sourceTree = "<group>"; };
@@ -109,10 +109,9 @@
 		B62026D216788B34004F3873 /* ColorArt */ = {
 			isa = PBXGroup;
 			children = (
+				B63779D616799D4200E79BFE /* Classes */,
 				B63779DD16799D7E00E79BFE /* LBGradient.h */,
 				B63779DE16799D7E00E79BFE /* LBGradient.m */,
-				B63779D616799D4200E79BFE /* Classes */,
-				B62026F616788B53004F3873 /* Supporting Files */,
 				B62026D416788B34004F3873 /* CAAppDelegate.h */,
 				B62026D516788B34004F3873 /* CAAppDelegate.m */,
 				B62026D616788B34004F3873 /* CAViewController.h */,
@@ -120,6 +119,7 @@
 				B62026D816788B34004F3873 /* CAViewController.xib */,
 				B62026E416788B34004F3873 /* PCFadedImageView.h */,
 				B62026E516788B34004F3873 /* PCFadedImageView.m */,
+				B62026F616788B53004F3873 /* Supporting Files */,
 			);
 			path = ColorArt;
 			sourceTree = "<group>";
@@ -127,8 +127,8 @@
 		B62026F616788B53004F3873 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F0D5046170AB8F600C2A297 /* coffee.png */,
 				B62026E316788B34004F3873 /* main.m */,
-				B62026D316788B34004F3873 /* Beatles-Abbey-Road-album.jpg */,
 				B62026D916788B34004F3873 /* ColorArt-Info.plist */,
 				B62026DA16788B34004F3873 /* ColorArt-Prefix.pch */,
 				B62026DB16788B34004F3873 /* Default-568h@2x.png */,
@@ -205,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62026E816788B34004F3873 /* Beatles-Abbey-Road-album.jpg in Resources */,
 				B62026EB16788B34004F3873 /* CAViewController.xib in Resources */,
 				B62026EC16788B34004F3873 /* ColorArt-Info.plist in Resources */,
 				B62026ED16788B34004F3873 /* Default-568h@2x.png in Resources */,
@@ -213,6 +212,7 @@
 				B62026EF16788B34004F3873 /* Default@2x.png in Resources */,
 				B62026F016788B34004F3873 /* DSC_0062.jpg in Resources */,
 				B62026F116788B34004F3873 /* InfoPlist.strings in Resources */,
+				1F0D5047170AB8F600C2A297 /* coffee.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
