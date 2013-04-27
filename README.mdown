@@ -8,17 +8,18 @@ Port of ColorArt code from OS X to iOS.
 Usage
 ===
 
-```objective-c
+``` objective-c
 #include <ColorArt/UIImage+ColorArt.h>
 
 image = [image scaledToSize:self.fadedImageView.frame.size];
+
 SLColorArt *colorArt = [image colorArt];
-self.fadedImageView.backgroundColor = colorArt.backgroundColor;
-self.fadedImageView.image = image;
-self.view.backgroundColor = colorArt.backgroundColor;
-self.headline.textColor = colorArt.primaryColor;
-self.subHeadline.textColor = colorArt.secondaryColor;
-self.text.textColor = colorArt.detailColor;
+self.fadedImageView.backgroundColor     = colorArt.backgroundColor;
+self.fadedImageView.image               = image;
+self.view.backgroundColor               = colorArt.backgroundColor;
+self.headline.textColor                 = colorArt.primaryColor;
+self.subHeadline.textColor              = colorArt.secondaryColor;
+self.text.textColor                     = colorArt.detailColor;
 ```
 
 About
