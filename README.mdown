@@ -10,7 +10,9 @@ Usage
 
 ``` objective-c
 #include <ColorArt/UIImage+ColorArt.h>
+```
 
+```objective-c
 image = [image scaledToSize:self.fadedImageView.frame.size];
 
 SLColorArt *colorArt = [image colorArt];
