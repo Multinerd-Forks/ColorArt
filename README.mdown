@@ -1,6 +1,8 @@
 iTunes 11 Style Color Art Detection for iOS.
 ===
 
+# >> [Original implementation from Fred Leitz](https://github.com/fleitz/ColorArt) << #
+
 Port of ColorArt code from OS X to iOS.
 
 ![Screenshot](https://raw.github.com/vinhnx/ColorArt/master/new.png)
